@@ -13,7 +13,7 @@ import warnings
 from collections import defaultdict
 from contextlib import closing
 from pickle import HIGHEST_PROTOCOL
-from six import StringIO
+from theano.compat.six import StringIO
 try:
     from pickle import DEFAULT_PROTOCOL
 except ImportError:
@@ -28,7 +28,6 @@ try:
     from cuda_ndarray import cuda_ndarray
 except ImportError:
     cuda_ndarray = None
-
 
 
 __docformat__ = "restructuredtext en"
