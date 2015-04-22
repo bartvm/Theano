@@ -269,6 +269,7 @@ whitelist_flake8 = [
     "misc/tests/test_may_share_memory.py",
     "misc/tests/test_pycuda_theano_simple.py",
     "misc/tests/test_gnumpy_utils.py",
+    "misc/tests/test_pkl_utils.py",
     "misc/tests/test_pycuda_utils.py",
     "misc/tests/test_cudamat_utils.py",
     "misc/tests/test_pycuda_example.py",
